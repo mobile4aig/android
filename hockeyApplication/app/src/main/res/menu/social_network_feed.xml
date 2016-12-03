@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_facebook"
+        android:orderInCategory="100"
+        android:title="@string/action_facebook"
+        android:icon="@drawable/facebook"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_twitter"
+        android:orderInCategory="100"
+        android:title="@string/action_twitter"
+        android:icon="@drawable/twitter"
+        app:showAsAction="collapseActionView" />
+</menu>
