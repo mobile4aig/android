@@ -2,14 +2,45 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_splash">
+    android:background="@android:color/transparent">
 
     <TextView
+        android:id="@+id/tv_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="40sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="60sp"
+        android:typeface="sans"
+        android:background="@android:color/transparent"
         android:text="Social Feeds"/>
+    <TextView
+        android:id="@+id/tv_attr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv_main"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_green_light"
+        android:text="aig interview"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv_attr"
+        android:orientation="horizontal">
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:background="@android:color/transparent"
+           android:src="@drawable/facebook"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/twitter"/>
+    </LinearLayout>
 
 </RelativeLayout>
