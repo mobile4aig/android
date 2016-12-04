@@ -1,4 +1,4 @@
-package interview.android.aig;
+package com.aig.android.interview;
 
 import android.content.Intent;
 import android.os.Bundle;

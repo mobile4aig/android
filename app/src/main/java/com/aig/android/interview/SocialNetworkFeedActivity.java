@@ -1,4 +1,4 @@
-package interview.android.aig;
+package com.aig.android.interview;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
