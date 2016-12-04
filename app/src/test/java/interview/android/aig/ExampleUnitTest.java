@@ -1,4 +1,4 @@
-package interview.android.aig.com.hockeyapplication;
+package interview.android.aig;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package interview.android.aig.com.hockeyapplication;
+package interview.android.aig;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
