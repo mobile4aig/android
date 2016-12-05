@@ -139,7 +139,7 @@ public class SocialNetworkFeedActivity extends AppCompatActivity
                 } else {
                     super.onBackPressed();
                 }
-            } if (s_currentSocialNetworkFeed == SocialNetworkFeed.TWITTER) {
+            } else if (s_currentSocialNetworkFeed == SocialNetworkFeed.TWITTER) {
                 if (mTwitterWebView.canGoBack()) {
                     mTwitterWebView.goBack();
                 } else {
