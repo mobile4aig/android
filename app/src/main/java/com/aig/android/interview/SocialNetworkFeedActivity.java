@@ -133,7 +133,21 @@ public class SocialNetworkFeedActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            if (s_currentSocialNetworkFeed == SocialNetworkFeed.FACEBOOK) {
+                if (mFacebookWebView.canGoBack()) {
+                    mFacebookWebView.goBack();
+                } else {
+                    super.onBackPressed();
+                }
+            } if (s_currentSocialNetworkFeed == SocialNetworkFeed.TWITTER) {
+                if (mTwitterWebView.canGoBack()) {
+                    mTwitterWebView.goBack();
+                } else {
+                    super.onBackPressed();
+                }
+            } else {
+                super.onBackPressed();
+            }
         }
     }
 
